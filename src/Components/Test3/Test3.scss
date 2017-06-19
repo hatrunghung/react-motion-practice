@@ -1,0 +1,28 @@
+@import '../../theme/mixture.scss';
+@import '../../theme/variable.scss';
+
+.Test3 {
+    text-align: center;
+}
+
+.button {
+    @include button($color2);
+}
+
+.container {
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+
+    .block {
+        background-color: $color2;
+        height: 53px;
+        position: absolute;
+    }
+
+    h1 {
+        margin: 0;
+        display: inline-block;
+        color: $color2;
+    }
+}
